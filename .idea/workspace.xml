@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="f760541d-f3a5-427c-87e3-fbfd4881a2e8" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="TypeScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1kvaFsKADFvj3kY7aiuprc0qVTi" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="yarn" />
+    <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f760541d-f3a5-427c-87e3-fbfd4881a2e8" name="Default Changelist" comment="" />
+      <created>1606583419169</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1606583419169</updated>
+      <workItem from="1606583420257" duration="3071000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="634" y="325" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1606587699158">
+      <screen x="0" y="23" width="1792" height="1097" />
+    </state>
+    <state x="634" y="325" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.1792.1097@0.23.1792.1097" timestamp="1606587699158" />
+    <state x="598" y="310" width="596" height="522" key="find.popup" timestamp="1606588574401">
+      <screen x="0" y="23" width="1792" height="1097" />
+    </state>
+    <state x="598" y="310" width="596" height="522" key="find.popup/0.23.1792.1097@0.23.1792.1097" timestamp="1606588574401" />
+    <state x="561" y="268" width="670" height="676" key="search.everywhere.popup" timestamp="1606588618326">
+      <screen x="0" y="23" width="1792" height="1097" />
+    </state>
+    <state x="561" y="268" width="670" height="676" key="search.everywhere.popup/0.23.1792.1097@0.23.1792.1097" timestamp="1606588618326" />
+  </component>
+</project>
