@@ -6,8 +6,6 @@
 
 <style lang="scss" scoped>
 main {
-  background: lightgreen;
-  flex: 1;
-  padding: 2em;
+  overflow: auto;
 }
 </style>

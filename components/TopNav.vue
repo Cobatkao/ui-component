@@ -29,13 +29,16 @@ export default {
 
 <style lang="scss" scoped>
 .topNav {
+  width: 100%;
   background: lightskyblue;
   display: flex;
   justify-content: center;
   align-items: center;
-  align-items: center;
   min-height: 74px;
-  position: relative;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 20;
   .logo {
     max-width: 6em;
     margin-right: auto;
@@ -44,6 +47,7 @@ export default {
   .menu {
     display: flex;
     flex-wrap: nowrap;
+    white-space: nowrap;
     li {
       margin: 0 2em;
     }

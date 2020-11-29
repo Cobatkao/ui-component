@@ -1,6 +1,6 @@
 <template>
   <aside>
-    <h2>组件列表</h2>
+    <p class="aside-title">组件列表</p>
     <ul>
       <li>
         <router-link to="/doc/switch">Switch</router-link>
@@ -9,16 +9,10 @@
         <router-link to="/doc/Button">Button</router-link>
       </li>
       <li>
-        <router-link to="/doc/Icon">Icon</router-link>
+        <router-link to="/doc/Dialog">Dialog</router-link>
       </li>
       <li>
-        <router-link to="/doc/Scroll">Scroll</router-link>
-      </li>
-      <li>
-        <router-link to="/doc/Star">Star</router-link>
-      </li>
-      <li>
-        <router-link to="/doc/Loading">Loading</router-link>
+        <router-link to="/doc/Tabs">Tabs</router-link>
       </li>
     </ul>
   </aside>
@@ -38,16 +32,29 @@ export default {
 
 <style lang="scss" scoped>
 aside {
-  background: lightpink;
-  padding: 2em 0.5em;
-  h2 {
+  height: 100%;
+  position: fixed;
+  background: lightblue;
+  padding: 74px 10px 0 10px;
+  top: 0;
+  left: 0;
+  height: 100%;
+  z-index: 10;
+  .aside-title {
+    margin-top: 15px;
+    margin-bottom: 15px;
     text-align: center;
+    color: #191919;
   }
   ul {
     li {
       text-align: center;
       padding: 1em 0;
       cursor: pointer;
+      a {
+        font-size: 13px;
+        color: #191919;
+      }
     }
   }
 }

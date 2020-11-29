@@ -1,6 +1,6 @@
 <template>
   <div class="doc">
-    <TopNav />
+    <TopNav class="nav" />
     <div class="content">
       <Aside v-if="asideStatus"></Aside>
       <Main></Main>
@@ -33,12 +33,32 @@ export default {
   display: flex;
   flex-direction: column;
   height: 100vh;
+  > .nav {
+    flex-shrink: 0;
+  }
+  > .content {
+    flex-grow: 1;
+    padding-top: 74px;
+    padding-left: 114px;
+    @media (max-width: 500px) {
+      padding-left: 0;
+    }
+  }
   .content {
     display: flex;
-    flex: 1;
+    flex: 1 1 0%;
     max-width: 1280px;
     width: 100%;
-    margin: 0 auto;
+    margin: 0px auto;
+    position: relative;
+    > aside {
+      flex-shrink: 0;
+    }
+    > main {
+      flex-grow: 1;
+      padding: 16px;
+      background: white;
+    }
   }
 }
 </style>
