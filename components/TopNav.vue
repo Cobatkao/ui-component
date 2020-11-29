@@ -1,6 +1,7 @@
 <template>
   <div class="topNav">
-    <div class="logo" @click="toogleAside">Cozy UI</div>
+    <div class="toogleAsideEle" @click="toogleAside"></div>
+    <div class="logo">Cozy UI</div>
     <ul class="menu">
       <li>
         <router-link to="/doc">文档</router-link>
@@ -30,8 +31,11 @@ export default {
 .topNav {
   background: lightskyblue;
   display: flex;
+  justify-content: center;
+  align-items: center;
   align-items: center;
   min-height: 74px;
+  position: relative;
   .logo {
     max-width: 6em;
     margin-right: auto;
@@ -42,6 +46,28 @@ export default {
     flex-wrap: nowrap;
     li {
       margin: 0 2em;
+    }
+  }
+  .toogleAsideEle {
+    display: none;
+    width: 24px;
+    height: 24px;
+    background: lightgrey;
+    position: absolute;
+    left: 15px;
+    top: 50%;
+    transform: translateY(-50%);
+    transition: all 0.3s;
+  }
+  @media (max-width: 500px) {
+    > .menu {
+      display: none;
+    }
+    > .logo {
+      margin: 0 auto;
+    }
+    > .toogleAsideEle {
+      display: block;
     }
   }
 }

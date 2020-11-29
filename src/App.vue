@@ -10,7 +10,9 @@ import { ref, provide } from "vue";
 export default {
   name: "App",
   setup() {
-    const isAsideVisible = ref(true);
+    const pageWidth =
+      document.documentElement.clientWidth || document.body.clientWidth;
+    const isAsideVisible = ref(pageWidth > 500 ? true : false);
     provide("asideStatus", isAsideVisible);
   },
 };

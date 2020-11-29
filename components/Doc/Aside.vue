@@ -39,7 +39,7 @@ export default {
 <style lang="scss" scoped>
 aside {
   background: lightpink;
-  padding: 2em 1.5em;
+  padding: 2em 0.5em;
   h2 {
     text-align: center;
   }
