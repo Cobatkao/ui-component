@@ -1,7 +1,9 @@
 <template>
   <aside>
-    <p class="aside-title">组件列表</p>
     <ul>
+      <li>
+        <p class="aside-title">组件列表</p>
+      </li>
       <li>
         <router-link to="/doc/switch">Switch</router-link>
       </li>
@@ -33,27 +35,36 @@ export default {
 <style lang="scss" scoped>
 aside {
   height: 100%;
-  position: fixed;
   background: lightblue;
-  padding: 74px 10px 0 10px;
-  top: 0;
-  left: 0;
-  height: 100%;
+  padding: 10px;
   z-index: 10;
-  .aside-title {
-    margin-top: 15px;
-    margin-bottom: 15px;
-    text-align: center;
-    color: #191919;
+  @media (max-width: 500px) {
+    width: 74px;
+  }
+  @media (min-width: 500px) {
+    width: 154px;
   }
   ul {
     li {
       text-align: center;
       padding: 1em 0;
       cursor: pointer;
-      a {
-        font-size: 13px;
+      .aside-title {
+        margin-top: 45px;
+        margin-bottom: 15px;
+        text-align: center;
         color: #191919;
+      }
+      a {
+        display: block;
+        height: 40px;
+        color: #444;
+        line-height: 40px;
+        font-size: 14px;
+        overflow: hidden;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        font-weight: normal;
       }
     }
   }

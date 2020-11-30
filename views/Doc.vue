@@ -39,7 +39,6 @@ export default {
   > .content {
     flex-grow: 1;
     padding-top: 74px;
-    padding-left: 114px;
     @media (max-width: 500px) {
       padding-left: 0;
     }
